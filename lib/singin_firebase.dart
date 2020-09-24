@@ -12,6 +12,7 @@ class _FirebaseInputeDataState extends State<FirebaseInputeData> {
       body: Container(
         height: 200,
         color: Colors.red,
+        child: Text('data'),
       ),
     );
   }
