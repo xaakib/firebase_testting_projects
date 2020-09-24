@@ -71,7 +71,7 @@ class _FirebaseInputeDataState extends State<FirebaseInputeData> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  onPressed: null),
+                  onPressed: register),
               Text(
                 "Already Regiostared?",
                 style: TextStyle(
@@ -79,7 +79,7 @@ class _FirebaseInputeDataState extends State<FirebaseInputeData> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              RaisedButton(onPressed: register),
+              RaisedButton(onPressed: () {}),
             ],
           ),
         ),

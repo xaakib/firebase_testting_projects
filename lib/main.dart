@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_testting/singin_firebase.dart';
+import 'package:firebase_testting/firebase_carousel_slider.dart';
 import 'package:firebase_testting/listtile%202nd.dart';
 
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FirebaseInputeData(),
+      home: CarsoulSlider(),
     );
   }
 }
