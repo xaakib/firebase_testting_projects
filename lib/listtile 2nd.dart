@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_testting/details.dart';
+import 'package:firebase_testting/firebase_listtile.dart';
 import 'package:flutter/material.dart';
 
 class HomeSconce extends StatefulWidget {
